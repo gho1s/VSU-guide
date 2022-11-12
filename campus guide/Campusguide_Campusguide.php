@@ -3,23 +3,233 @@
 <head>
 	<title> VSU travel guide </title>
 </head>
+<style>
+* {
+  box-sizing: border-box;
+}
+column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 <body>
 <h1>Campus Guide</h1>
 <form method = "post" action="">
-  
-  <label for="fname">Hunter mack hall<b></b></</label>
-  <input type="radio" id="Building" name="Building" value="hunter"><br>
-  
-  <label for="age1">test</label>
+<div class="row">
+<div class="column" >
+  <label for="fname">Academic Commmons Building</label>
+<input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Agrultrue enginerring shop</label>
   <input type="radio" id="Building" name="Building" value="hi"><br>
-  
-  <label for="age2">L. Douglas Wilder Building</label><br> 
-  <input type="radio" id="Building" name="Building" value="Douglas"><br>
-	
-  <label for="age3">test</label>
-  <input type="radio" id="Building" name="Building" value="100"><br>
-  
+
+<label for="fname">Alummi Foundation</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Appomaxtoox Overlook</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Arthletic Deparment</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Arthletic Storage Building</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Basketball Courts</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Bookstore</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Branch Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Carter Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Colbert Baseball Fild</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Colson Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Daniel Gymnasium</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Davis Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Enginerring Technology Building</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Fauntleroy Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Foster Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Gandy Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Gateway Dining Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Gateway II Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Graduate & Transfer Admissions Building</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Guest House</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Heating Plant</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Honors Plant</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Honors House</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Hunter-McDaniel Building</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Institunional Effectiveness</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Jackson Place Cottage</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Jesse B. Bolling Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Johnnella Jackson Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Johnston Memorial Library</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Jones Dining Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">L. Douglas Wilder Building</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Langston Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Linday-Montague Building</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+</div>
+<div class="column">
+<label for="fname">Lockett Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Lucretia Campbell Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Lula Johnson Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">M.T. Carter Annex Building </label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Memorial Hall- Student Health Services</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Moore Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Multipurpose Center</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Otelia Howard Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Owen Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Physical Plant Administration</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Police and Public Safety</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Post Office</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">President's Residence</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Qaud I Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Qaud II Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Rogers Stadium</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Resorce & Development Center</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Seward Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Singleton Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Softball Field</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Soccer Field </label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Storum Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Summmerseat Building </label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Tennis Courts</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">University College</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">UTS</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Virginia Hall</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Hoptiality Management Building</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">VSU Credit Union</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Water Tower</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Welcome Center & Institutional Advancement</label>
+  <input type="radio" id="Building" name="Building" value="hi"><br>
+
+<label for="fname">Whiting Hall Williams</label>
+  <input type="radio" id="Building" name="Building" value="hunter"><br>
   <input type="submit" value="Submit">
+  </div>
+  </div>
 </form>
 <?php
 $Building = $_POST['Building'];
