@@ -224,7 +224,7 @@
 <label for="fname">University College</label>
   <input type="radio" id="Building" name="Building" value="University"><br>
 
-<label for="fname">UTS</label>
+<label for="fname">UTS Building</label>
   <input type="radio" id="Building" name="Building" value="UTS"><br>
 
 <label for="fname">Virginia Hall</label>
@@ -239,11 +239,8 @@
 <label for="fname">Water Tower</label>
   <input type="radio" id="Building" name="Building" value="Water"><br>
 
-<label for="fname">Welcome Center & Institutional Advancement</label>
-  <input type="radio" id="Building" name="Building" value="Welcome Center"><br>
-
 <label for="fname">Whiting Hall Williams</label>
-  <input type="radio" id="Building" name="Building" value=""><br>
+  <input type="radio" id="Building" name="Building" value="Whiting"><br>
   <input type="submit" value="Submit">
   </form>
   </div>
@@ -530,7 +527,7 @@ else if ($Building == "Heating"){
 	<h1>Moore Hall</h1>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.699134511147!2d-77.42031478538202!3d37.2433644503287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a65de75a2299%3A0x1294b8c263f7e5b5!2sMoore%20Hall!5e1!3m2!1sen!2sus!4v1668678779664!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Multipurpose Center"){
+}else if ($Building == "Multipurpose"){
 	?>
 	<div class = "map">
 	<h1>Multipurpose Center</h1>
@@ -588,100 +585,102 @@ else if ($Building == "Otelia"){
 	<h1>President's Residence</h1>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d638.0009846875057!2d-77.42014443578428!3d37.23436095279318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6637440b625%3A0x8c1f1521598713ec!2sPresident&#39;s%20House%2C%20Chesterfield%20Ave%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668680348680!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Qaud I"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Qaud I Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1072.9537747317954!2d-77.4213214205446!3d37.23658871607162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a663d3b7fa47%3A0x40fbff393a49461c!2sQuad%20Residence%20Hall%2C%20Lee%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668680604847!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Qaud II"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Qaud II Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1072.9537747317954!2d-77.4213214205446!3d37.23658871607162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a66183d1eb4f%3A0xc005e71753dd32f4!2sQuad%20II!5e1!3m2!1sen!2sus!4v1668680679265!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Rogers"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Rogers Stadium`
+	</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.9878557989387!2d-77.41894750619775!3d37.239992671427835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6606461ede5%3A0xdc2166a9226650c!2sRogers%20Stadium!5e1!3m2!1sen!2sus!4v1668680847262!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Resorce"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Resorce & Development Center</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.66444326005086!2d-77.42272045034346!3d37.24007782947306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6604c9d90c1%3A0x60f4719ac747af28!2sSchool%20of%20Graduate%20Studies%20and%20Continuing%20Education!5e1!3m2!1sen!2sus!4v1668704067960!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Seward"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Seward Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d553.4793760087372!2d-77.41830704962534!3d37.23588198082373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6641960c3c1%3A0x5bfbf4ca5c7d2349!2sSeward%20Residence%20Hall%2C%20Hayden%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668704346372!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Singleton"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Singleton Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.869806956495!2d-77.4207022853823!3d37.238323250615274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a666cc9cd60d%3A0x9358df322580febe!2sSingleton%20Hall%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668704553713!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Softball"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Softball Field </h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d268.21498743737095!2d-77.42050602285207!3d37.243180243205494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1668704597261!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Summmerseat"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Summmerseat Building</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382.9659667079109!2d-77.42708827530406!3d37.23919158962536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a68bb311d835%3A0x9c837067dc96b0ef!2s20829%20Chesterfield%20Ave%2C%20South%20Chesterfield%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668705561849!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Tennis"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Tennis Courts</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1288.1378773870074!2d-77.4218399371981!3d37.23924758328103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1668705776278!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "University"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>University College</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d637.9666501213414!2d-77.41690867081574!3d37.2384179664276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a666fae08fff%3A0x81c6325fd1762931!2sAcademic%20Success%20Center%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668706078543!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "UTS"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>UTS Building</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d536.4821206390441!2d-77.41994867289729!3d37.23585334340295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a663c15cd8ab%3A0x58d5490f66ecd677!2sUTS%20Building%2C%20Lee%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668706185092!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Virginia"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Virginia Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.9913159180373!2d-77.42119988538236!3d37.23473385081935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6638f4d363f%3A0xbae6346f605f8bc0!2sVirginia%20Hall!5e1!3m2!1sen!2sus!4v1668706320993!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Hoptiality"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Hoptiality Management Building</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d730.2782323255819!2d-77.42319621523458!3d37.24023633278079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a66037f74e67%3A0x12dc69aa25bc79d8!2sHospitality%20Management%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668706538546!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Credit"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>VSU Credit Union</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1275.9653728651367!2d-77.42384740255459!3d37.23652314364557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6623cc6b285%3A0x8dd93cce0cb02ac4!2sVirginia%20State%20University%20FCU!5e1!3m2!1sen!2sus!4v1668706733759!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Water"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Water Tower</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d268.23436298988616!2d-77.41548477181244!3d37.23773551854685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1668706885652!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
-}else if ($Building == "Owen"){
+}else if ($Building == "Whiting"){
 	?>
 	<div class = "map">
-	<h1>Owen Hall</h1>
-	<?php
-}else if ($Building == "Owen"){
-	?>
-	<div class = "map">
-	<h1>Owen Hall</h1>
-	<?php
-}else if ($Building == "Owen"){
-	?>
-	<div class = "map">
-	<h1>Owen Hall</h1>
-	<?php
-}else if ($Building == "Owen"){
-	?>
-	<div class = "map">
-	<h1>Owen Hall</h1>
+	<h1>Whiting Hall Williams</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.962803138709!2d-77.42348198538231!3d37.23557615077146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a663ca42cfb7%3A0x1cfd99b7986fe5e!2sWhiting%20Residence%20Hall%2C%20Lee%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668707346645!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<?php
 }
 	else{
