@@ -151,9 +151,6 @@
 <label for="fname">Lula Johnson Hall</label>
   <input type="radio" id="Building" name="Building" value="Lula"><br>
 
-<label for="fname">M.T. Carter Annex Building </label>
-  <input type="radio" id="Building" name="Building" value="Annex Building"><br>
-
 <label for="fname">Memorial Hall- Student Health Services</label>
   <input type="radio" id="Building" name="Building" value="Memorial Hall"><br>
 
@@ -162,6 +159,7 @@
 
 <label for="fname">Multipurpose Center</label>
   <input type="radio" id="Building" name="Building" value="Multipurpose"><br>
+  <input type="submit" value="Submit">
 </form>
 </div>
 
@@ -173,79 +171,80 @@
 <form method = "post" action="">
 <h3>Buildings: O-W</h3>
 <label for="fname">Otelia Howard Hall</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Otelia"><br>
 
 <label for="fname">Owen Hall</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Owen"><br>
 
 <label for="fname">Physical Plant Administration</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Physical"><br>
 
 <label for="fname">Police and Public Safety</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Police"><br>
 
 <label for="fname">Post Office</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Post"><br>
 
 <label for="fname">President's Residence</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="President"><br>
 
 <label for="fname">Qaud I Hall</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Qaud I"><br>
 
 <label for="fname">Qaud II Hall</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Qaud II"><br>
 
 <label for="fname">Rogers Stadium</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Rogers"><br>
 
 <label for="fname">Resorce & Development Center</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Resorce"><br>
 
 <label for="fname">Seward Hall</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Seward"><br>
 
 <label for="fname">Singleton Hall</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Singleton"><br>
 
 <label for="fname">Softball Field</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Softball"><br>
 
 <label for="fname">Soccer Field </label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Soccer"><br>
 
 <label for="fname">Storum Hall</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Storum"><br>
 
 <label for="fname">Summmerseat Building </label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Summmerseat"><br>
 
 <label for="fname">Tennis Courts</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Tennis"><br>
 
 <label for="fname">University College</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="University"><br>
 
 <label for="fname">UTS</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="UTS"><br>
 
 <label for="fname">Virginia Hall</label>
   <input type="radio" id="Building" name="Building" value="Virginia"><br>
 
 <label for="fname">Hoptiality Management Building</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Hoptiality"><br>
 
 <label for="fname">VSU Credit Union</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Credit"><br>
 
 <label for="fname">Water Tower</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Water"><br>
 
 <label for="fname">Welcome Center & Institutional Advancement</label>
-  <input type="radio" id="Building" name="Building" value="hi"><br>
+  <input type="radio" id="Building" name="Building" value="Welcome Center"><br>
 
 <label for="fname">Whiting Hall Williams</label>
   <input type="radio" id="Building" name="Building" value=""><br>
+  <input type="submit" value="Submit">
   </form>
   </div>
   
@@ -482,6 +481,207 @@ else if ($Building == "Heating"){
 	<div class = "map">
 	<h1>Jones Dining Hall</h1>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4264519104904!2d-77.42031568860173!3d37.235693811779655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a663f68de16d%3A0x6cd57972ccccdb81!2sJones%20Dining%20Hall!5e1!3m2!1sen!2sus!4v1668676769441!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Douglas"){
+	?>
+	<div class = "map">
+	<h1>L. Douglas Wilder Building</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.781930651421!2d-77.42034358538211!3d37.24091895046774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6674eeb3ee7%3A0x9e740c8b3d8f25b2!2sL.%20Douglas%20Wilder%20Building%2C%20Carter%20G%20Woodson%20Ave%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668677344409!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Langston"){
+	?>
+	<div class = "map">
+	<h1>Langston Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d758.6998817512514!2d-77.41862416395655!3d37.23589400524053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a664142a797f%3A0x2449a9ea5d4ee0f3!2sLangston%20Residence%20Hall%2C%20Hayden%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668677442700!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Linday-Montague"){
+	?>
+	<div class = "map">
+	<h1>Linday-Montague Building</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.993756556536!2d-77.42186798538228!3d37.2346617508234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a66399f30e4d%3A0x4b4e457da2d0e506!2sLindsay-Montague%20Building%2C%20Hayden%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668677521919!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Lockett hall"){
+	?>
+	<div class = "map">
+	<h1>Lockett Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.953363806904!2d-77.41969188111418!3d37.235854995786376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a665d38f9bc9%3A0x9a784904af5a40f!2sLockett%20Hall%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668677769117!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Lucretia"){
+	?>
+	<div class = "map">
+	<h1>Lucretia Campbell Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d536.4847374795686!2d-77.41989713500779!3d37.235485623752254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a66394b8f393%3A0xfb7e4db4ba55adb1!2sEggleston%20Hall%2C%20Lee%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668677873792!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Lula"){
+	?>
+	<div class = "map">
+	<h1>Lula Johnson Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.1175106725863!2d-77.41912562309255!3d37.23536763772742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a66472846ba5%3A0xb705a30b76165988!2sVawter%20Hall%2C%20College%20Ave%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668678166727!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Memorial Hall"){
+	?>
+	<div class = "map">
+	<h1>Memorial Hall- Student Health Services</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1072.9672170914364!2d-77.42159586504229!3d37.23564426244416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a663c5f7f561%3A0x62bd7d162592c90f!2sMemorial%20Hall%20-%20Student%20Health%20Services%2C%20Lee%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668678640038!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Moore"){
+	?>
+	<div class = "map">
+	<h1>Moore Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.699134511147!2d-77.42031478538202!3d37.2433644503287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a65de75a2299%3A0x1294b8c263f7e5b5!2sMoore%20Hall!5e1!3m2!1sen!2sus!4v1668678779664!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Multipurpose Center"){
+	?>
+	<div class = "map">
+	<h1>Multipurpose Center</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.819469238446!2d-77.42713208538215!3d37.23981015053081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a68a5eed34ed%3A0x79e146f68bcabfd1!2sVSU%20Multipurpose%20Center!5e1!3m2!1sen!2sus!4v1668678853667!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+else if ($Building == "Otelia"){
+	?>
+	<div class = "map">
+	<h1>Otelia Howard Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d637.995740707927!2d-77.42104276828184!3d37.23498061218367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a663bb8f68f3%3A0xdee518df32bf3153!2sByrd%20Residence%20Hall%2C%20Hayden%20St%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668679875165!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.8807788545487!2d-77.41998488538218!3d37.23799915063369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a666c66c4d29%3A0x41a7b43208645b3c!2sOwens%20Hall%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668679786412!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Physical"){
+	?>
+	<div class = "map">
+	<h1>Physical Plant Administration</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1275.9642282497473!2d-77.41571189948598!3d37.23659076795101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6667ba24563%3A0x426e098e4075eb81!2sPhysical%20Plant%20Administration%2C%20Colonial%20Heights%2C%20VA%2023834!5e1!3m2!1sen!2sus!4v1668680087524!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Police"){
+	?>
+	<div class = "map">
+	<h1>Police and Public Safety</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d902.227963711659!2d-77.41695961106879!3d37.23784358471126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a666f052c981%3A0x34c47aabec9c4684!2sVSU%20Police%20and%20Public%20Safety!5e1!3m2!1sen!2sus!4v1668680197134!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Post"){
+	?>
+	<div class = "map">
+	<h1>Post Office</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d318.9961785279048!2d-77.41937726281562!3d37.23538043968741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1668680274373!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "President"){
+	?>
+	<div class = "map">
+	<h1>President's Residence</h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d638.0009846875057!2d-77.42014443578428!3d37.23436095279318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1a6637440b625%3A0x8c1f1521598713ec!2sPresident&#39;s%20House%2C%20Chesterfield%20Ave%2C%20Petersburg%2C%20VA%2023803!5e1!3m2!1sen!2sus!4v1668680348680!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
+	<?php
+}else if ($Building == "Owen"){
+	?>
+	<div class = "map">
+	<h1>Owen Hall</h1>
 	<?php
 }
 	else{
