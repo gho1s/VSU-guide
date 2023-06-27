@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   <link rel= "stylesheet" href="styleContact.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#0a0ef3;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+	
+
+
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #fd8105;
+    color:#fff;
+
+}
+h1{
+    margin-bottom: 10px;
+
+}
+.container p{
+    margin-bottom: 40px;
+
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: 1c00b5;
+    width: 100;
+    border: none;
+    outline: none; 
+    color: rgb(12, 65, 238);
+    height: 35px;
+    border-radius: 30px;
+    margin-top:20px;
+    
+}
+.contact-left h3{
+    color:#1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top:20px;
+}
+
+
+</style>
+<body>
+   <div class="container">
+      <h1> Connect With Us</h1>
+      <p> We would love to respond to your queries and help you succeed! Feel free to get in touch with us.</p>
+      <div class="contact-box">
+         <div class="contact-left">
+            <h3>Sent your request </h3>
+            <form>
+               <div class="input-row">
+                  <div class ="input-group">
+                     <label>Name</label>
+                     <input type="text" placeholder="John Amendo">
+
+                  </div>
+                  <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" placeholder="804 506 2456">
+   
+                     </div>
+
+
+               </div>
+               <div class="input-row">
+                  <div class ="input-group">
+                     <label>Email</label>
+                     <input type="email" placeholder="Johnamendo@gmail.com">
+
+                  </div>
+                  <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Product Demo">
+   
+                     </div>
+
+
+               </div>
+               <label> Message </label>
+               <textarea rows="5" placeholder="Your Message"></textarea>
+               <button type ="Submit">SEND</button>
+            </form>
+
+         </div>
+         <div class="contact-right">
+            <h3>Reach Us </h3>
+            <table>
+               <tr>
+                  <td> Email</td>
+                  <td> Sgho3610@students.vsu.edu
+                       Jehradgholson01@gmail.com
+                       Keshawnbbbryant@gmail.com
+
+                  </td>
+               </tr>
+               <tr>
+                  <td>Address</td>
+                  
+                  <td> 1 Hayden St, Petersburg, VA 23806 </td>
+               </tr>
+               <tr>
+                  <td> Phone</td>
+                  <td> 804-922-9637
+                       804-787-7974
+                       804-983-893
+                     
+                  </td>
+               </tr>
+            </table>
+
+
+         </div>
+      </div>
+   </div>
+   
+
+
+</body>
+</html>
